@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1682006902 source:d:\c++\bai1\sdl\testsdl\game3\base.cpp
+	"base.hpp"
+
+1682006902 d:\c++\bai1\sdl\testsdl\game3\base.hpp
+	"Common.hpp"
+
+1682010804 d:\c++\bai1\sdl\testsdl\game3\common.hpp
+	<string>
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<sstream>
+
+1682006902 source:d:\c++\bai1\sdl\testsdl\game3\boss.cpp
+	"boss.hpp"
+
+1682006902 d:\c++\bai1\sdl\testsdl\game3\boss.hpp
+	<vector>
+	"common.hpp"
+	"base.hpp"
+	"bullet.hpp"
+	"Explosion.hpp"
+
+1682009695 d:\c++\bai1\sdl\testsdl\game3\bullet.hpp
+	"base.hpp"
+	"common.hpp"
+
+1682006902 d:\c++\bai1\sdl\testsdl\game3\explosion.hpp
+	"base.hpp"
+	"common.hpp"
+
+1682006902 source:d:\c++\bai1\sdl\testsdl\game3\chicken.cpp
+	"chicken.hpp"
+
+1682009313 d:\c++\bai1\sdl\testsdl\game3\chicken.hpp
+	<vector>
+	"common.hpp"
+	"base.hpp"
+	"bullet.hpp"
+	"Explosion.hpp"
+
+1682006902 source:d:\c++\bai1\sdl\testsdl\game3\explosion.cpp
+	"Explosion.hpp"
+
+1682006902 source:d:\c++\bai1\sdl\testsdl\game3\main.cpp
+	"game_management.hpp"
+
+1682009695 d:\c++\bai1\sdl\testsdl\game3\game_management.hpp
+	"common.hpp"
+	"base.hpp"
+	"space_ship.hpp"
+	"chicken.hpp"
+	"Explosion.hpp"
+	"Text.hpp"
+	"boss.hpp"
+
+1682006902 d:\c++\bai1\sdl\testsdl\game3\space_ship.hpp
+	<vector>
+	"common.hpp"
+	"base.hpp"
+	"bullet.hpp"
+
+1682006902 d:\c++\bai1\sdl\testsdl\game3\text.hpp
+	"base.hpp"
+	"common.hpp"
+
+1682006902 source:d:\c++\bai1\sdl\testsdl\game3\text.cpp
+	"Text.hpp"
+
+1682009695 source:d:\c++\bai1\sdl\testsdl\game3\bullet.cpp
+	"bullet.hpp"
+
+1682006902 source:d:\c++\bai1\sdl\testsdl\game3\space_ship.cpp
+	"space_ship.hpp"
+
+1682009695 source:d:\c++\bai1\sdl\testsdl\game3\game_management.cpp
+	"game_management.hpp"
+
