@@ -24,7 +24,7 @@ const float SCREEN_SPEED=1.4;
 const int COLOR_KEY_R=170;
 const int COLOR_KEY_G=170;
 const int COLOR_KEY_B=170;
-//const int RENDER_DRAW_COLOR=255;
+
 
 const int NUMBER_OF_CHICKEN=30;
 

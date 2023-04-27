@@ -24,7 +24,6 @@ game_management:: game_management(){
         isRunning=false;
     }
     else{
-  //  SDL_SetRenderDrawColor(gRenderer,RENDER_DRAW_COLOR,RENDER_DRAW_COLOR,RENDER_DRAW_COLOR,RENDER_DRAW_COLOR);
     int imgFlags=IMG_INIT_PNG;
     if(!(IMG_Init(imgFlags)& imgFlags)){ isRunning =false;}
     if(TTF_Init()<0){ isRunning=false;}
@@ -359,9 +358,6 @@ void game_management::handle_chicken(){
  }
 }
 void game_management:: handle_game(){
-    /*SDL_SetRenderDrawColor(gRenderer,RENDER_DRAW_COLOR,RENDER_DRAW_COLOR,RENDER_DRAW_COLOR,RENDER_DRAW_COLOR);
-    SDL_RenderClear(gRenderer);*/
-    //handle backgr
     scrolling+=SCREEN_SPEED;
     if(scrolling<0){
         background.Render(gRenderer);
