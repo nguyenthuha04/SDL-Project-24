@@ -14,6 +14,6 @@ Explosion:: ~Explosion(){
  void Explosion:: Show(SDL_Renderer* screen){
   frame_++;
   SDL_Rect renderQuad={rect_.x, rect_.y, WIDTH_FRAME_EXP,HEIGHT_FRAME_EXP};
-  SDL_RenderCopy(screen,object_,&clip_[frame_],&renderQuad);
+  SDL_RenderCopy(screen,object_,&clip_[frame_/2],&renderQuad);
  }
 

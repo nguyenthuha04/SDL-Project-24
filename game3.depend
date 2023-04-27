@@ -78,3 +78,82 @@
 1682609130 source:d:\c++\bai1\sdl\testsdl\game3\game_management.cpp
 	"game_management.hpp"
 
+1682006902 source:c:\users\admin\desktop\sdl-project-24\base.cpp
+	"base.hpp"
+
+1682528442 c:\users\admin\desktop\sdl-project-24\base.hpp
+	"Common.hpp"
+
+1682611289 c:\users\admin\desktop\sdl-project-24\common.hpp
+	<string>
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<sstream>
+
+1682530235 source:c:\users\admin\desktop\sdl-project-24\boss.cpp
+	"boss.hpp"
+
+1682556599 c:\users\admin\desktop\sdl-project-24\boss.hpp
+	<vector>
+	"common.hpp"
+	"base.hpp"
+	"bullet.hpp"
+	"Explosion.hpp"
+
+1682530800 c:\users\admin\desktop\sdl-project-24\bullet.hpp
+	"base.hpp"
+	"common.hpp"
+
+1682006902 c:\users\admin\desktop\sdl-project-24\explosion.hpp
+	"base.hpp"
+	"common.hpp"
+
+1682531725 source:c:\users\admin\desktop\sdl-project-24\bullet.cpp
+	"bullet.hpp"
+
+1682588495 source:c:\users\admin\desktop\sdl-project-24\chicken.cpp
+	"chicken.hpp"
+
+1682609130 c:\users\admin\desktop\sdl-project-24\chicken.hpp
+	<vector>
+	"common.hpp"
+	"base.hpp"
+	"bullet.hpp"
+	"Explosion.hpp"
+
+1682532456 source:c:\users\admin\desktop\sdl-project-24\explosion.cpp
+	"Explosion.hpp"
+
+1682611308 source:c:\users\admin\desktop\sdl-project-24\game_management.cpp
+	"game_management.hpp"
+
+1682556354 c:\users\admin\desktop\sdl-project-24\game_management.hpp
+	"common.hpp"
+	"base.hpp"
+	"space_ship.hpp"
+	"chicken.hpp"
+	"Explosion.hpp"
+	"Text.hpp"
+	"boss.hpp"
+
+1682532996 c:\users\admin\desktop\sdl-project-24\space_ship.hpp
+	<vector>
+	"common.hpp"
+	"base.hpp"
+	"bullet.hpp"
+
+1682006902 c:\users\admin\desktop\sdl-project-24\text.hpp
+	"base.hpp"
+	"common.hpp"
+
+1682006902 source:c:\users\admin\desktop\sdl-project-24\main.cpp
+	"game_management.hpp"
+
+1682586514 source:c:\users\admin\desktop\sdl-project-24\space_ship.cpp
+	"space_ship.hpp"
+
+1682006902 source:c:\users\admin\desktop\sdl-project-24\text.cpp
+	"Text.hpp"
+
