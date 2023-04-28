@@ -298,8 +298,8 @@ void game_management::handle_boss(){
 
 void game_management::handle_chicken(){
  if(kill<NUMBER_OF_CHICKEN*2){
-    for(int ck=0;ck<p_chicken_list.size() ;ck++){
-        Chicken* p_chicken=p_chicken_list.at(ck);
+    for(int chic=0;chic<p_chicken_list.size() ;chic++){
+        Chicken* p_chicken=p_chicken_list.at(chic);
         if(p_chicken){
             SDL_Delay(1);
             p_chicken->Move();
